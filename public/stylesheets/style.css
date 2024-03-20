@@ -1,0 +1,27 @@
+.header {
+ padding: 2rem 0;
+}
+.HomePagetitle {
+ text-align: center;
+ font-size: 2rem;
+ margin: 2rem 0;
+}
+/* form */
+.form {
+ height: 90vh;
+}
+.inputSet {
+ margin-bottom: 1rem;
+}
+.inputSet label {
+ display: block;
+ width: fit-content;
+}
+.inputSet input,
+.inputSet textarea {
+ border: 1px solid rgba(128, 128, 128, 0.59);
+ width: 100%;
+ outline: none;
+ padding: 0.4rem 0.3rem;
+ border-radius: 0.2rem;
+}

@@ -1,0 +1,265 @@
+/*CSS Resets Start */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+ display: block;
+}
+html {
+ scroll-behavior: smooth;
+ font-size: 16px;
+}
+body {
+ line-height: 1;
+ font-family: "Madimi One", sans-serif;
+}
+ol,
+ul {
+ list-style: none;
+}
+blockquote,
+q {
+ quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+ content: "";
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+/*CSS Resests Completed */
+
+/* default classes */
+a {
+ text-decoration: none;
+ color: blue;
+}
+.border {
+ border: 1px solid rgba(128, 128, 128, 0.318);
+}
+.container {
+ max-width: 1400px;
+ width: 100%;
+ margin: auto;
+ box-sizing: border-box;
+ /* border: 1px solid red; */
+}
+
+.flex {
+ display: flex;
+}
+.flexwrap {
+ flex-wrap: wrap;
+}
+.flexNoWrap {
+ flex-wrap: nowrap;
+}
+
+.flexcolomn {
+ flex-direction: column;
+}
+.justifyCenter {
+ justify-content: center;
+}
+.justifyRight {
+ justify-content: right;
+}
+.alignCenter {
+ align-items: center;
+}
+.alignStart {
+ align-items: start;
+}
+.spaceBetween {
+ justify-content: space-between;
+}
+.spaceAround {
+ justify-content: space-around;
+}
+.spaceEvenly {
+ justify-content: space-evenly;
+}
+.flex7 {
+ flex: 0 1 7%;
+}
+.flex10 {
+ flex: 0 1 10%;
+}
+.flex12 {
+ flex: 0 1 12%;
+}
+.flex15 {
+ flex: 0 1 15%;
+}
+.flex18 {
+ flex: 0 1 18%;
+}
+.flex20 {
+ flex: 0 1 20%;
+}
+.flex23 {
+ flex: 0 1 23%;
+}
+.flex22 {
+ flex: 0 1 22%;
+}
+.flex25 {
+ flex: 0 1 25%;
+}
+.flex28 {
+ flex: 0 1 28%;
+}
+.flex30 {
+ flex: 0 1 30%;
+}
+.flex33 {
+ flex: 0 1 33%;
+}
+.flex35 {
+ flex: 0 1 35%;
+}
+.flex40 {
+ flex: 0 1 40%;
+}
+.flex42 {
+ flex: 0 1 42%;
+}
+.flex45 {
+ flex: 0 1 45%;
+}
+.flex48 {
+ flex: 0 1 48%;
+}
+.flex50 {
+ flex: 0 1 50%;
+}
+.flex55 {
+ flex: 0 1 55%;
+}
+.flex60 {
+ flex: 0 1 60%;
+}
+.flex65 {
+ flex: 0 1 65%;
+}
+.flex68 {
+ flex: 0 1 68%;
+}
+.flex70 {
+ flex: 0 1 70%;
+}
+.flex75 {
+ flex: 0 1 75%;
+}
+.flex80 {
+ flex: 0 1 80%;
+}
+.flex90 {
+ flex: 0 1 90%;
+}
+.widthFull {
+ width: 100%;
+}
+.height {
+ height: 100vh;
+}

@@ -1,0 +1,38 @@
+<%- include('partials/header') %>
+
+<main class="register">
+ <div class="container">
+  <h2 style="text-align: center; font-size: 2rem">Login with You Details</h2>
+  <form
+   action="/users/login"
+   method="post"
+   class="container flex justifyCenter form alignCenter"
+  >
+   <figure class="flex45">
+    <img style="width: 100%" src="/images/formImg.png" alt="" />
+   </figure>
+   <fieldset class="flex28">
+    <div class="inputSet">
+     <label for="Email">Email</label>
+     <input
+      id="Email"
+      name="email"
+      type="email"
+      placeholder="Enter Your Email"
+     />
+    </div>
+
+    <div class="inputSet">
+     <label for="EmaPasswordil">Password</label>
+     <input
+      id="Password"
+      name="password"
+      type="text"
+      placeholder="Enter Your Password"
+     />
+    </div>
+    <input type="submit" />
+   </fieldset>
+  </form>
+ </div>
+</main>
